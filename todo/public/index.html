@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ToDo App</title>
+  </head>
+  <body class="bg-blue-800 text-gray-400">
+    <div class="fl w-2/6 mt-8 mx-auto">
+      <div>
+        <h1 class="text-4xl font-bold">ToDo App</h1>
+        <form class="search my-2" autocomplete="off">
+          <input
+            class="w-full p-2 text-blue-800"
+            type="text"
+            name="search"
+            placeholder="Search ToDos"
+          />
+        </form>
+      </div>
+
+      <div>
+        <ul class="todos">
+          <li class="flex flex-row p-3 mb-1 rounded bg-blue-900">
+            <span class="flex-grow">Task 1</span>
+            <span class="inline-block align-baseline">
+              <i class="fas fa-trash-alt"></i>
+            </span>
+          </li>
+          <li class="flex flex-row p-3 mb-1 rounded bg-blue-900">
+            <span class="flex-grow">Task 1</span>
+            <span class="inline-block align-baseline">
+              <i class="fas fa-trash-alt"></i>
+            </span>
+          </li>
+          <li class="flex flex-row p-3 mb-1 rounded bg-blue-900">
+            <span class="flex-grow">Task 1</span>
+            <span class="inline-block align-baseline">
+              <i class="fas fa-trash-alt"></i>
+            </span>
+          </li>
+          <li class="flex flex-row p-3 mb-1 rounded bg-blue-900">
+            <span class="flex-grow">Task 1</span>
+            <span class="inline-block align-baseline">
+              <i class="fas fa-trash-alt"></i>
+            </span>
+          </li>
+          <li class="flex flex-row p-3 mb-1 rounded bg-blue-900">
+            <span class="flex-grow">Task 1</span>
+            <span class="inline-block align-baseline">
+              <i class="fas fa-trash-alt"></i>
+            </span>
+          </li>
+          <li class="flex flex-row p-3 mb-1 rounded bg-blue-900">
+            <span class="flex-grow">Task 1</span>
+            <span class="inline-block align-baseline">
+              <i class="fas fa-trash-alt"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="add my-2 text-blue-800" autocomplete="off">
+        <input class="w-full p-2" type="text" name="add" placeholder="Add a new ToDo" />
+      </form>
+    </div>
+    <script src="https://kit.fontawesome.com/5014cea61c.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

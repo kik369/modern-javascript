@@ -1,0 +1,15 @@
+.card {
+  position: relative;
+}
+
+.bottom-left-img {
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+}
